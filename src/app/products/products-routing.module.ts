@@ -10,6 +10,14 @@ const routes: Routes = [
     component: BasicsPageComponent,
   },
   {
+    path: '',
+    component: BasicsPageComponent,
+  },
+  {
+    path: 'numbers',
+    component: NumbersPageComponent,
+  },
+  {
     path: 'numbers',
     component: NumbersPageComponent,
   },
