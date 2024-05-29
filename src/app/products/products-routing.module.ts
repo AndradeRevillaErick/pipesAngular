@@ -21,7 +21,10 @@ const routes: Routes = [
     path: 'numbers',
     component: NumbersPageComponent,
   },
-
+  {
+    path: 'uncommon',
+    component: UncommonPageComponent,
+  },
   {
     path: '**',
     redirectTo: '',
