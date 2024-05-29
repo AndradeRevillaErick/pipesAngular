@@ -13,6 +13,10 @@ const routes: Routes = [
     path: 'numbers',
     component: NumbersPageComponent,
   },
+  {
+    path: 'numbers',
+    component: NumbersPageComponent,
+  },
 
   {
     path: '**',
